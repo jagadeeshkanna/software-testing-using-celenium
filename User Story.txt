@@ -1,0 +1,71 @@
+User Story:
+
+1.As a Admin,
+
+I want to log in with my email and password so that the system can authenticate me and
+ I can trust it
+
+Acceptance Criteria:
+
+-> Ensure that the admin is able to login with valid email id and password
+
+-> If I go to the login page and enter my email with an incorrect password and
+  click on Log in,then log in fails.
+
+->If I enter the login page with correct credentials it should navigate to the mail page.
+
+
+2.As an Admin,
+
+I should be able to search for a mail
+
+Acceptance Criteria,
+
+->Ensure the admin is logged in with valid credentials
+
+->Ensure that search box is visible
+
+->Ensure that the user enters relevant data to obtain desired search results
+
+->After clicking search, check whether the search results are displayed
+
+3.As an Admin,
+
+I should be able to compose mails to other recipients
+
+Acceptance Criteria,
+
+->Ensure that admin is logged in with valid credentials
+
+->Ensure admin enters the correct recipient details
+
+->Check if the mail is composed properly
+
+->Check if the mail is composed after clicking send 
+
+4.As an Admin,
+
+I should be able to check sent mails
+
+Acceptance Criteria,
+
+->Ensure that admin is logged in with valid credentials
+
+->Ensure that sent mails option is visible in the page
+
+->Check if all the sent mails are displayed
+
+5.As an Admin,
+
+I should be able to delete a mail
+
+Acceptance Criteria,
+
+->Ensure that admin is logged in with valid credentials
+
+->Ensure that admin selects the mail that is to be deleted
+
+->Then click delete option to delete the mail
+
+->Check if the mail is deleted once delete option is clicked
+
